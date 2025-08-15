@@ -25,6 +25,7 @@
     "jest": "^30.0.5"
   },
   "dependencies": {
-    "core-js": "^3.45.0"
+    "core-js": "^3.45.0",
+    "eslint-plugin-import": "^2.32.0"
   }
 }
