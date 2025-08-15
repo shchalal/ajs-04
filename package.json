@@ -1,0 +1,28 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shchalal/ajs-04.git"
+  },
+  "author": "svetlana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shchalal/ajs-04/issues"
+  },
+  "homepage": "https://github.com/shchalal/ajs-04#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "jest": "^30.0.5"
+  },
+  "dependencies": {
+    "core-js": "^3.45.0"
+  }
+}
