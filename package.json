@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "core-js": "^3.45.0",
-    "eslint-plugin-import": "^2.32.0"
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jest": "^29.0.1"
   }
 }
