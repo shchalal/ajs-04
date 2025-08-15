@@ -4,7 +4,8 @@
   "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "@babel/cli": "^7.28.3",
     "@babel/core": "^7.28.3",
     "@babel/preset-env": "^7.28.3",
+    "eslint": "^9.33.0",
     "jest": "^30.0.5"
   },
   "dependencies": {
