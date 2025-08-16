@@ -2,8 +2,8 @@
 import getHealthStatus from "../js/health.js";
 
 describe("getHealthStatus", () => {
-  test("возвращает healthy при health > 50 (например, 90)", () => {
-    expect(getHealthStatus({ name: "Маг", health: 90 })).toBe("healthy");
+  test("возвращает healthy при health > 50 (например, 90)",() => {
+      expect(getHealthStatus({ name: "Маг", health: 90 })).toBe("healthy");
   });
 
   test("возвращает healthy на границе >50 (например, 51)", () => {
