@@ -1,5 +1,5 @@
 /* eslint-env jest */
-import getHealthStatus from "../health.js";
+import getHealthStatus from "../js/health.js";
 
 describe("getHealthStatus", () => {
   test("возвращает healthy при health > 50 (например, 90)", () => {
