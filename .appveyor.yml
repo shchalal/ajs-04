@@ -1,8 +1,8 @@
 environment:
-  nodejs_version: "18"
+  nodejs_version: "20"
 
-image: Ubuntu1804
-stack: node 12
+image: Ubuntu2204
+stack: node 20
 
 branches:
   only:
